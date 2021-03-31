@@ -1,7 +1,8 @@
 
-// Assets
+
 import logo from "../assets/images/sites/all/themes/itg/logo2048.png?v=1.5"
 // Components
+import {Link} from 'react-router-dom'
 
 function LandingPage() {
     return (
@@ -30,10 +31,10 @@ function LandingPage() {
                                                         title="TV" class="menu__link">LIVE TV</a></li>
                                                 </ul>
                                                 <div class="container headeritg-logo">
-                                                    <div class="logo"> <a href="index.html" title="Home" rel="home"
+                                                    <div class="logo"> <Link to="/" title="Home" rel="home"
                                                         class="header__logo" id="logo"><img
                                                             src={logo}
-                                                            alt="Home" class="header__logo-image" /></a></div>
+                                                            alt="Home" class="header__logo-image" /></Link></div>
                                                 </div>
                                                 <ul class="menu">
                                                     <li class="menu__item is-leaf first leaf"><a href="our-apps.html"
@@ -58,16 +59,22 @@ function LandingPage() {
 
                                                 <div class="scc_inGssHomeSbOnly"></div>
                                             </li>
-                                            <li class="nav-items "> <a href="index.html" style={{background: 'transparent'}}
-                                                class="second-level-child second-level-child-0 notactive notactive url-type-external">Home</a>
+                                            <li class="nav-items "> <Link to="/" style={{background: 'transparent'}}
+                                                class="second-level-child second-level-child-0 notactive notactive url-type-external">Home</Link>
                                             </li>
                                             <li class="nav-items "> <a href="foryou.html" style={{background: 'transparent'}}
                                                 class="second-level-child second-level-child-1 notactive notactive url-type-external">MY
                                                 FEED</a></li>
-                                            <li class="nav-items "> <a href="videos.html" style={{background: 'transparent'}}
+                                            <li class="nav-items "> <Link to="/video" style={{background: 'transparent'}}
                                                 target="_self"
                                                 class="second-level-child second-level-child-2 notactive notactive url-type-internal">Videos
-                                            </a></li>
+                                            </Link></li>
+
+                                            <li class="nav-items "> <Link to="/election"
+                                                style={{background: 'transparent'}} target="_self"
+                                                rel="noopener noreferrer"
+                                                class="second-level-child second-level-child-3 notactive notactive url-type-external">Election</Link>
+                                            </li>
                                             <li class="nav-items "> <a href="https://malayalam.indiatoday.in/"
                                                 style={{background: 'transparent'}} target="_self"
                                                 rel="noopener noreferrer"
@@ -100,9 +107,9 @@ function LandingPage() {
                                                 style={{background: 'transparent'}}
                                                 class="second-level-child second-level-child-9 notactive notactive url-type-external">Health</a>
                                             </li>
-                                            <li class="nav-items "> <a href="technology.html"
+                                            <li class="nav-items "> <Link to='/tech'
                                                 style={{background: 'transparent'}}
-                                                class="second-level-child second-level-child-10 notactive notactive url-type-external">Tech</a>
+                                                class="second-level-child second-level-child-10 notactive notactive url-type-external">Tech</Link>
                                             </li>
                                             <li class="nav-items "> <a href="sports.html" style={{background: 'transparent'}}
                                                 target="_self"
