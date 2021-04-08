@@ -1,0 +1,213 @@
+
+.st1 {
+  fill: #ffffff;
+}
+.view-content{
+  color: #aaa8a9;
+  background: #171717 !important;
+  padding-top: 10px;
+  margin: 0,;
+}
+.st1 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #ffffff;
+}
+.block-itg-ads iframe {
+  max-width: inherit !important;
+}
+.anchor-detail-menu .tab-buttons span.active a {
+  text-shadow: 1px 0 0 #000;
+}
+
+.videoplayer_related {
+  z-index: 99999;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+}
+.videoplayer_related .related-header {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+.videoplayer_related h4 {
+  color: #fff;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.related-container {
+  width: 81.5%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: -15px;
+  margin: 0 auto;
+}
+.videoplayer_related .related-container .firstDivRap {
+  width: 100%;
+}
+.videoplayer_related .related-container .secondDivRap {
+  width: 85%;
+  margin: 8px auto auto;
+  padding-bottom: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.videoplayer_related .related-container .secondDivRap .nextvideo-container {
+  flex-basis: 30%;
+  max-width: 30%;
+  width: 30%;
+}
+.videoplayer_related
+  .related-container
+  .firstDivRap
+  .nextvideo-container:nth-of-type(1) {
+  width: 50%;
+  margin: auto;
+}
+.videoplayer_related .related-container .nextvideo-container .related-videoimg {
+  width: 100%;
+  position: relative;
+  border: 1px solid transparent;
+  transition: all ease 0.25s;
+  box-sizing: border-box;
+}
+.videoplayer_related
+  .related-container
+  .firstDivRap
+  .nextvideo-container
+  .videotitle-related {
+  font-size: 14px;
+  color: #fff;
+  line-height: 18px;
+  display: block;
+  text-align: center;
+  padding: 8px;
+  background: #000;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 30px;
+}
+.videoplayer_related
+  .related-container
+  .nextvideo-container
+  .related-videoimg
+  .loadergif {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.videoplayer_related .related-container .nextvideo-container img {
+  width: 100%;
+}
+.videoplayer_related
+  .related-container
+  .secondDivRap
+  .nextvideo-container
+  .videotitle-related {
+  font-size: 13px;
+  color: #fff;
+  line-height: 17px;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 2px;
+  box-sizing: border-box;
+  padding-top: 5px;
+  height: 42px;
+  overflow: hidden;
+}
+.close-smallplayer {
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.79) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.79) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.79) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9000000', endColorstr='#00000000',GradientType=0 );
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  top: -35px;
+  display: flex;
+  justify-content: flex-end;
+  -webkit-transition: top 0.3s linear;
+  -o-transition: top 0.3s linear;
+  transition: top 0.3s linear;
+}
+.close-smallplayer span.closebut {
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+}
+.fixedsmall-video,
+.iframe-video {
+  overflow: hidden;
+}
+.fixedsmall-video .jwplayer + .close-smallplayer {
+  top: 0px;
+  -webkit-transition: top 0.3s linear;
+  -o-transition: top 0.3s linear;
+  transition: top 0.3s linear;
+}
+.fixedsmall-video .jwplayer.jw-flag-user-inactive + .close-smallplayer {
+  top: -35px;
+}
+.fixedsmall-video .videoplayer_related .related-container .secondDivRap {
+  display: none;
+}
+.fixedsmall-video #videoplayer.jwplayer .jw-icon-settings,
+.fixedsmall-video #videoplayer.jwplayer .jw-settings-sharing {
+  display: none;
+}
+@media (max-width: 767px) {
+  .videoplayer_related .related-container .secondDivRap {
+    display: none;
+  }
+}
+.progress-value {
+  transform: rotate(-90deg);
+}
+.playanimate .progress-value {
+  stroke-dasharray: 211;
+  stroke-dashoffset: 211;
+  animation: progress 10s linear;
+  stroke: red;
+}
+@keyframes progress {
+  from {
+    stroke-dashoffset: 211;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes progress {
+  from {
+    stroke-dashoffset: 211;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
