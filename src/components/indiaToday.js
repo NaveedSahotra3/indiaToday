@@ -14,7 +14,11 @@ function Home() {
      
       <Header />
       
-        <Route exact path="/" component={MediaPlayer} />
+        <Route exact path="/" component={LandingPage} />
+
+        <Route exact path="/mediaplayer" component={MediaPlayer} />
+
+
         {/* <Route path="/" component={Stories} /> */}
         <Route exact path="/tech" component={Tech} />
         <Route exact path="/election" component={Election} />
