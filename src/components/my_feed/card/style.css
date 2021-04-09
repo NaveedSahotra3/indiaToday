@@ -1,0 +1,15 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+
+
+@media(max-width:770px){
+    .card_main_div{
+        display: none;
+    }
+   
+
+} 
