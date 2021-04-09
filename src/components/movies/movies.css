@@ -1,0 +1,17 @@
+.movie_top_section_a_tag{
+     
+    color: white;
+}
+.Crousal_main_div_side_div{
+    width:30%;
+    height:400px;
+    display:flex;
+    justify-content:center
+}
+@media (max-width: 1000px){
+    .Crousal_main_div_side_div{
+        width:100%;
+        margin-top: 50px;
+       
+    }
+}
