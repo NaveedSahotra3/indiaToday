@@ -3,6 +3,7 @@ import "./movies.css"
 import Movie_Card from "./moviecard";
 import Movie_3rd_section from "./movieThird_sec"
 import Carousel from "./crousalsection"
+import Card from "./cards"
 export default function Movies() {
     return (
         <div class="itg-layout-container itg-front movie-layout-page ">
@@ -89,43 +90,180 @@ export default function Movies() {
                 </div>
 
                 {/* gggg */}
-                     <div className="Crousal_main_div_side_div" >
-                      <div style={{width:"90%",height:"100%",backgroundColor:"#f3f3f3",}}>
-                          <div style={{display:"flex",padding:"2px",borderBottom:"1px solid #dddddd",height:"25%"}}>
-                              <div>
-                              <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/video/202104/162172303_266771531574428_7998_1200x768.jpeg?gqEwIGEhPxjZX8qvm8qnraxqz2XowhMQ&size=170:96"  />
-                              </div>
-                          <div style={{padding:"10px"}}>
-                             <span ><b> Katerina Test Possitive For Covid</b></span>
-                             </div>
-                          </div>
-                          <div style={{display:"flex",padding:"2px",borderBottom:"1px solid #dddddd",height:"25%"}}>
-                              <div>
-                              <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/video/202104/162172303_266771531574428_7998_1200x768.jpeg?gqEwIGEhPxjZX8qvm8qnraxqz2XowhMQ&size=170:96"  />
-                              </div>
-                          <div style={{padding:"10px"}}>
-                             <span ><b> Katerina Test Possitive For Covid</b></span>
-                             </div>
-                          </div>
-                          <div style={{display:"flex",padding:"2px",borderBottom:"1px solid #dddddd",height:"25%"}}>
-                              <div>
-                              <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/video/202104/162172303_266771531574428_7998_1200x768.jpeg?gqEwIGEhPxjZX8qvm8qnraxqz2XowhMQ&size=170:96"  />
-                              </div>
-                          <div style={{padding:"10px"}}>
-                             <span ><b> Katerina Test Possitive For Covid</b></span>
-                             </div>
-                          </div>
-                          <div style={{display:"flex",padding:"2px",borderBottom:"1px solid #dddddd",height:"25%"}}>
-                              <div>
-                              <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/video/202104/162172303_266771531574428_7998_1200x768.jpeg?gqEwIGEhPxjZX8qvm8qnraxqz2XowhMQ&size=170:96"  />
-                              </div>
-                          <div style={{padding:"10px"}}>
-                             <span ><b> Katerina Test Possitive For Covid</b></span>
-                             </div>
-                          </div>
-                      </div>
-                     </div>
+                <div className="Crousal_main_div_side_div" >
+                    <div style={{ width: "90%", height: "100%", backgroundColor: "#f3f3f3", }}>
+                        <div style={{ display: "flex", padding: "2px", borderBottom: "1px solid #dddddd", height: "25%" }}>
+                            <div>
+                                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/video/202104/162172303_266771531574428_7998_1200x768.jpeg?gqEwIGEhPxjZX8qvm8qnraxqz2XowhMQ&size=170:96" />
+                            </div>
+                            <div style={{ padding: "10px" }}>
+                                <span ><b> Katerina Test Possitive For Covid</b></span>
+                            </div>
+                        </div>
+                        <div style={{ display: "flex", padding: "2px", borderBottom: "1px solid #dddddd", height: "25%" }}>
+                            <div>
+                                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/video/202104/162172303_266771531574428_7998_1200x768.jpeg?gqEwIGEhPxjZX8qvm8qnraxqz2XowhMQ&size=170:96" />
+                            </div>
+                            <div style={{ padding: "10px" }}>
+                                <span ><b> Katerina Test Possitive For Covid</b></span>
+                            </div>
+                        </div>
+                        <div style={{ display: "flex", padding: "2px", borderBottom: "1px solid #dddddd", height: "25%" }}>
+                            <div>
+                                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/video/202104/162172303_266771531574428_7998_1200x768.jpeg?gqEwIGEhPxjZX8qvm8qnraxqz2XowhMQ&size=170:96" />
+                            </div>
+                            <div style={{ padding: "10px" }}>
+                                <span ><b> Katerina Test Possitive For Covid</b></span>
+                            </div>
+                        </div>
+                        <div style={{ display: "flex", padding: "2px", borderBottom: "1px solid #dddddd", height: "25%" }}>
+                            <div>
+                                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/video/202104/162172303_266771531574428_7998_1200x768.jpeg?gqEwIGEhPxjZX8qvm8qnraxqz2XowhMQ&size=170:96" />
+                            </div>
+                            <div style={{ padding: "10px" }}>
+                                <span ><b> Katerina Test Possitive For Covid</b></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+
+            {/* 4thpart */}
+            <div className="forth_section_most_main_div" >
+
+                <div className="forth_section_main_movie_div" style={{}}>
+
+
+
+
+                    <div style={{ width: "100%", height: "100%" }} class="">
+
+                        <div class="">
+                            {/* <span class="widget-title"><a href="">Hollywood</a>
+                            </span> */}
+
+                            <div class="row buying-guides tech-in-depth movie_sider_main_div">
+                                <div class="col-md-6 col-sm-6 movie_sider_1st_div">
+                                    <div style={{ width: "100%" }}>
+                                        <img class=" lazyloaded" src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202104/black-adam-dwayne-johnson-1598_1200x768.jpeg?size=370:208" data-src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202104/black-adam-dwayne-johnson-1598_1200x768.jpeg?size=370:208" alt="" title="" />
+
+                                        <h3 title="Dwayne Johnson to play titular DC supervillian in Black Adam, shoot begins this week">
+                                            <a href="">Dwayne Johnson to play titular DC supervillian in Black Adam, shoot begins this week</a>
+                                        </h3>
+                                    </div>
+                                    <div style={{ display: "flex", padding: "2px", borderBottom: "1px solid #dddddd", height: "70px" }}>
+                                        <div style={{ width: "100px", height: "50px" }}>
+                                            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202104/Disney_Cruella_poster__1__1200x768.jpeg?size=88:50" />
+                                        </div>
+                                        <div style={{ padding: "10px" }}>
+                                            <span ><b> Emma Stone turns villain in Disney's Cruella. New trailer out</b></span>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div className="movie_sider_2nd_div" style={{}}>
+
+                                    <div style={{ display: "flex", marginTop: "10px", padding: "2px", borderBottom: "1px solid #dddddd", height: "70px" }}>
+                                        <div style={{ width: "110px", height: "60px" }}>
+                                            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202104/SUISQ2_Star_Tsr_1sht_VERT_2764.jpg?size=88:50" />
+                                        </div>
+                                        <div style={{ paddingLeft: "10px" }}>
+                                            <span ><b> Emma Stone turns villain in Disney's Cruella. New trailer out</b></span>
+                                        </div>
+                                    </div>
+                                    <div style={{ display: "flex", marginTop: "10px", padding: "2px", borderBottom: "1px solid #dddddd", height: "70px" }}>
+                                        <div style={{ width: "110px", height: "50px" }}>
+                                            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202104/SUISQ2_Star_Tsr_1sht_VERT_2764.jpg?size=88:50" />
+                                        </div>
+                                        <div style={{ paddingLeft: "10px" }}>
+                                            <span ><b> Emma Stone turns villain in Disney's Cruella. New trailer out</b></span>
+                                        </div>
+                                    </div>
+                                    <div style={{ display: "flex", marginTop: "10px", padding: "2px", borderBottom: "1px solid #dddddd", height: "70px" }}>
+                                        <div style={{ width: "110px", height: "50px" }}>
+                                            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202104/SUISQ2_Star_Tsr_1sht_VERT_2764.jpg?size=88:50" />
+                                        </div>
+                                        <div style={{ paddingLeft: "10px" }}>
+                                            <span ><b> Emma Stone turns villain in Disney's Cruella. New trailer out</b></span>
+                                        </div>
+                                    </div>
+                                    <div style={{ display: "flex", marginTop: "10px", padding: "2px", borderBottom: "1px solid #dddddd", height: "70px" }}>
+                                        <div style={{ width: "110px", height: "50px" }}>
+                                            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202104/SUISQ2_Star_Tsr_1sht_VERT_2764.jpg?size=88:50" />
+                                        </div>
+                                        <div style={{ paddingLeft: "10px" }}>
+                                            <span ><b> Emma Stone turns villain in Disney's Cruella. New trailer out</b></span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+                {/* gggg */}
+                <div className="fourth_section_main_side_div" >
+                    <div style={{ width: "90%", height: "fit-content", backgroundColor: "#f3f3f3", paddingTop: "15px" }}>
+                        <div style={{ display: "flex", padding: "2px", borderBottom: "1px solid #dddddd", height: "70px" }}>
+                            <div style={{ width: "100px", height: "50px" }}>
+                                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/video/202104/162172303_266771531574428_7998_1200x768.jpeg?gqEwIGEhPxjZX8qvm8qnraxqz2XowhMQ&size=170:96" />
+                            </div>
+                            <div style={{ padding: "10px" }}>
+                                <span ><b> Katerina Test Possitive For Covid</b></span>
+                            </div>
+                        </div>
+                        <div style={{ display: "flex", padding: "2px", borderBottom: "1px solid #dddddd", height: "70px" }}>
+                            <div style={{ width: "100px", height: "50px" }}>
+                                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/video/202104/162172303_266771531574428_7998_1200x768.jpeg?gqEwIGEhPxjZX8qvm8qnraxqz2XowhMQ&size=170:96" />
+                            </div>
+                            <div style={{ padding: "10px" }}>
+                                <span ><b> Katerina Test Possitive For Covid</b></span>
+                            </div>
+                        </div>
+                        <div style={{ display: "flex", padding: "2px", borderBottom: "1px solid #dddddd", height: "70px" }}>
+                            <div style={{ width: "100px", height: "50px" }}>
+                                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/video/202104/162172303_266771531574428_7998_1200x768.jpeg?gqEwIGEhPxjZX8qvm8qnraxqz2XowhMQ&size=170:96" />
+                            </div>
+                            <div style={{ padding: "10px" }}>
+                                <span ><b> Katerina Test Possitive For Covid</b></span>
+                            </div>
+                        </div>
+                        <div style={{ display: "flex", padding: "2px", borderBottom: "1px solid #dddddd", height: "70px" }}>
+                            <div style={{ width: "100px", height: "50px" }}>
+                                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/video/202104/162172303_266771531574428_7998_1200x768.jpeg?gqEwIGEhPxjZX8qvm8qnraxqz2XowhMQ&size=170:96" />
+                            </div>
+                            <div style={{ padding: "10px" }}>
+                                <span ><b> Katerina Test Possitive For Covid</b></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+             <Card />
         </div>
     );
 }

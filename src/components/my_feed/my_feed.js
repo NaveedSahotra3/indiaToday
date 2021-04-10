@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css"
+import Header from "../my_feed/header"
 export default function My_Feed() {
     let content_array = [
         {
@@ -66,7 +67,7 @@ export default function My_Feed() {
     ]
     return (
         <div className="My_feed_most_main_div">
-            <div className="my_feed_header_main_div">
+            {/* <div className="my_feed_header_main_div">
                 <div className="my_feed_header_div">
 
 
@@ -100,7 +101,9 @@ export default function My_Feed() {
 
                 </div>
 
-            </div>
+            </div> */}
+            <Header />
+
             <div className="My_feed_main_div">
                 {content_array.map((user) => (
                     <div className="My_feed_div">

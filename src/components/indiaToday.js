@@ -11,6 +11,7 @@ import My_Feeds from "./my_feed/my_feed";
 import Personalize from "./my_feed/personalize/personalize";
 import Movies from "./movies/movies"
 
+
 function Home() {
   return (
     <div className="html front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-2 node-type-page">
@@ -24,6 +25,7 @@ function Home() {
       <Route exact path="/my_feed" component={My_Feeds} />
         <Route exact path="/video" component={Videos} />
         <Route exact path="/movies" component={Movies} />
+       
      
 
 
