@@ -1,0 +1,38 @@
+.movie_detail_main_div{
+    display: flex; 
+    justify-content: flex-end;
+     width: 40%;
+}
+.section_div{
+    justify-content: center;
+}
+.newsletter_div{
+    width:100%;
+    display:flex;
+    margin-top:10px;
+   
+}
+@media (max-width: 1000px){
+   .side_main_div {
+    display: none;
+    }
+    .movie_detail_main_div{
+      
+         width: 90%;
+    }
+    .section_div{
+        justify-content: center;
+    }
+}
+@media (max-width: 750px){
+    .newsletter_div{
+        flex-direction: column;
+    }
+    }
+@media (min-width: 768px){
+.col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+     flex: 0 0 66.666667%; 
+     /* max-width: 66.666667%;  */
+}
+}
