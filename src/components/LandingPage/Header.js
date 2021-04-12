@@ -46,7 +46,7 @@ function LandingPage() {
                                         </div>
                                     </div>
                                 </div>
-                                <nav class="navigation">
+                                <nav style={{height:"60px"}} class="navigation">
                                     <div class="container">
                                         <ul class="second-level-menu before-load menu">
                                             <li class="userlogin-icon-parent-mobile">
