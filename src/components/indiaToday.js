@@ -7,8 +7,10 @@ import Tech from './tech/tech'
 import Videos from './videos/video'
 import Election from './elections/election'
 import {  Route } from "react-router-dom";
-import My_Feeds from "./my_feed/my_feed"
-import Personalize from "./my_feed/personalize/personalize"
+import My_Feeds from "./my_feed/my_feed";
+import Personalize from "./my_feed/personalize/personalize";
+import Movies from "./movies/movies"
+import Front from "./fornt/fornt"
 
 function Home() {
   return (
@@ -22,6 +24,9 @@ function Home() {
         <Route exact path="/election" component={Election} />
       <Route exact path="/my_feed" component={My_Feeds} />
         <Route exact path="/video" component={Videos} />
+        <Route exact path="/movies" component={Movies} />
+        <Route exact path="/front" component={Front} />
+       
      
 
 

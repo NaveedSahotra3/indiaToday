@@ -1,0 +1,35 @@
+body{
+     overflow-x: hidden; 
+     
+}
+.foryou_main_menu{
+background: #f3f3f3;
+    margin-bottom: 10px;
+    width: 1200px;
+    box-sizing: border-box;
+    display: block;
+}
+.mr-0, *, #block-formblock-ask-an-expert .form-item .form-item {
+    margin: 0;
+}
+.foryou_main_menu > ul li a, .foryou_main_menu > ul li {
+    font-size: 14px;
+    color: #717171;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    font-family: OpenSans-semibold;
+    position: relative;
+    white-space: nowrap
+}
+.foryou_main_menu > ul li {
+    padding: 14px 16px;
+    overflow-x: hidden;
+}
+
+.foryou_main_menu > ul li.active > a, .foryou_main_menu > ul li.active {
+    color: #000;
+}
+.foryou_main_menu > ul li:hover {
+    background-color: #b9b5b5;
+}

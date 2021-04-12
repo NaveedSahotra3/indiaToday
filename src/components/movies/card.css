@@ -1,0 +1,16 @@
+.change_done{
+    -webkit-line-clamp: "1"
+}
+.change_done2{
+    background-image: url(&quot;https://images.taboola.com/taboola/image/fetch/f_jpg%2Cq_auto%2Ch_256%2Cw_460%2Cc_fill%2Cg_faces:auto%2Ce_sharpen/http%3A//cdn.taboola.com/libtrc/static/thumbnails/e8530e6102c26ec34aa32eed29404c80.png&quot;)
+
+}
+.change_done3{
+    -webkit-line-clamp: 2;
+}
+.change_done4{
+background-image: url(&quot;https://images.taboola.com/taboola/image/fetch/f_jpg%2Cq_auto%2Ch_256%2Cw_460%2Cc_fill%2Cg_faces:auto%2Ce_sharpen/http%3A//cdn.taboola.com/libtrc/static/thumbnails/878d6304c61f134b319bf41051825b37.png&quot)
+}
+.change_done4{
+    -webkit-line-clamp: 2;
+}
