@@ -5,7 +5,7 @@ import React from 'react'
 const Tech = ()=>{
     return(<div>
 
-<h2>dfadff</h2>
+<h2>Temp</h2>
     </div>)
 }
 

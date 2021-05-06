@@ -73,15 +73,15 @@ export default class Example extends Component {
             justifyContent: "space-around"
           }}
         >
-          <div>
+          {/* <div>
             <label>Go to slide: </label>
             <input name="goToSlide" onChange={this.onChangeInput} />
           </div>
           <div>
             <label>Offset Radius: </label>
             <input name="offsetRadius" onChange={this.onChangeInput} />
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <label>Show navigation: </label>
             <input
               type="checkbox"
@@ -101,8 +101,8 @@ export default class Example extends Component {
             >
               Gentle Transition
             </button>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <button
               onClick={() => {
                 this.setState({ config: config.slow });
@@ -131,7 +131,7 @@ export default class Example extends Component {
             >
               Stiff Transition
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     );

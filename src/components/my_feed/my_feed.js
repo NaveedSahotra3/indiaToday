@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css"
+import "./styless.css"
 import Header from "../my_feed/header"
 export default function My_Feed() {
     let content_array = [
@@ -66,7 +66,7 @@ export default function My_Feed() {
 
     ]
     return (
-        <div className="My_feed_most_main_div">
+        <div className="container">
             {/* <div className="my_feed_header_main_div">
                 <div className="my_feed_header_div">
 
@@ -101,14 +101,14 @@ export default function My_Feed() {
 
                 </div>
 
-            </div> */}
+             </div> */}
             <Header />
 
-            <div className="My_feed_main_div">
+            <div className="container My_feed_main_div">
                 {content_array.map((user) => (
                     <div className="My_feed_div">
                         <div className="My_feed_main_div_1">
-                            <div class="box">
+                            <div class="box_feed">
                                 <div style={{ width: "80%", height: "80%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
                                     <img style={{ objectFit: "contain", width: "100%", height: "100%" }} src={user.img} />
                                     <span>{user.name}</span>

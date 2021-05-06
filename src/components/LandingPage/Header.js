@@ -1,6 +1,6 @@
 
 
-import logo from "../assets/images/sites/all/themes/itg/logo2048.png?v=1.5"
+import logo from "../assets/images/sites/all/themes/itg/logo (1).png?v=1.5"
 // Components
 import {Link} from 'react-router-dom'
 
@@ -25,9 +25,9 @@ function LandingPage() {
                                         <div class="nav-container-menu">
                                             <div class="nav-centerall">
                                                 <ul class="menu">
-                                                    <li class="menu__item is-leaf first leaf"><a href="index.html"
+                                                    <li class="menu__item is-leaf first leaf"><a 
                                                         title="News" class="menu__link active">News</a></li>
-                                                    <li class="menu__item is-leaf last leaf"><a href="livetv.html"
+                                                    <li class="menu__item is-leaf last leaf"><a 
                                                         title="TV" class="menu__link">LIVE TV</a></li>
                                                 </ul>
                                                 <div class="container headeritg-logo">
@@ -37,16 +37,16 @@ function LandingPage() {
                                                             alt="Home" class="header__logo-image" /></Link></div>
                                                 </div>
                                                 <ul class="menu">
-                                                    <li class="menu__item is-leaf first leaf"><a href="our-apps.html"
+                                                    <li class="menu__item is-leaf first leaf"><a 
                                                         title="APP" target="_blank" class="menu__link">APP</a></li>
-                                                    <li class="menu__item is-leaf last leaf"><a href="magazine.html"
+                                                    <li class="menu__item is-leaf last leaf"><a 
                                                         title="Magazine" class="menu__link">Magazine</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <nav style={{height:"60px"}} class="navigation">
+                                <nav  class="navigation">
                                     <div class="container">
                                         <ul class="second-level-menu before-load menu">
                                             <li class="userlogin-icon-parent-mobile">
@@ -62,9 +62,9 @@ function LandingPage() {
                                             <li class="nav-items "> <Link to="/" style={{background: 'transparent'}}
                                                 class="second-level-child second-level-child-0 notactive notactive url-type-external">Home</Link>
                                             </li>
-                                            <li class="nav-items "> <a href="foryou.html" style={{background: 'transparent'}}
+                                            <li class="nav-items "> <Link to='/my_feed' style={{background: 'transparent'}}
                                                 class="second-level-child second-level-child-1 notactive notactive url-type-external">MY
-                                                FEED</a></li>
+                                                FEED</Link></li>
                                             <li class="nav-items "> <Link to="/video" style={{background: 'transparent'}}
                                                 target="_self"
                                                 class="second-level-child second-level-child-2 notactive notactive url-type-internal">Videos
@@ -75,35 +75,35 @@ function LandingPage() {
                                                 rel="noopener noreferrer"
                                                 class="second-level-child second-level-child-3 notactive notactive url-type-external">Election</Link>
                                             </li>
-                                            <li class="nav-items "> <a href="https://malayalam.indiatoday.in/"
+                                            {/* <li class="nav-items "> <a href="https://malayalam.indiatoday.in/"
                                                 style={{background: 'transparent'}} target="_self"
                                                 rel="noopener noreferrer"
                                                 class="second-level-child second-level-child-3 notactive notactive url-type-external">Malayalam</a>
-                                            </li>
-                                            <li class="nav-items "> <a href="india.html" style={{background: 'transparent'}}
+                                            </li> */}
+                                            <li class="nav-items "> <a style={{background: 'transparent'}}
                                                 target="_self"
                                                 class="second-level-child second-level-child-4 notactive notactive url-type-internal">India
                                             </a></li>
-                                            <li class="nav-items "> <a href="https://play.indiatodaygaming.com/"
+                                            <li class="nav-items "> <a 
                                                 style={{background: 'transparent'}} target="_blank"
                                                 rel="noopener noreferrer"
                                                 class="second-level-child second-level-child-5 notactive notactive url-type-external">Gaming</a>
                                             </li>
-                                            <li class="nav-items "> <a href="fact-check.html"
+                                            <li class="nav-items "> <a 
                                                 style={{background: 'transparent'}} target="_self"
                                                 class="second-level-child second-level-child-6 notactive notactive url-type-internal">Fact
                                                 Check </a></li>
                                             <li class="nav-items "> <a
-                                                href="https://quiz.indiatodaygaming.com/intro;jsessionid=6C780D9EEC12A32F011AF2822C5166EC"
+                                               
                                                 style={{background: 'transparent'}} target="_blank"
                                                 rel="noopener noreferrer"
                                                 class="second-level-child second-level-child-7 notactive notactive url-type-external">Quiz</a>
                                             </li>
-                                            <li class="nav-items "> <a href="movies.html" style={{background: 'transparent'}}
+                                            <li class="nav-items "> <Link to='/movies' style={{background: 'transparent'}}
                                                 target="_self"
                                                 class="second-level-child second-level-child-8 notactive notactive url-type-internal">Movies
-                                            </a></li>
-                                            <li class="nav-items "> <a href="lifestyle/health.html"
+                                            </Link></li>
+                                            <li class="nav-items "> <a 
                                                 style={{background: 'transparent'}}
                                                 class="second-level-child second-level-child-9 notactive notactive url-type-external">Health</a>
                                             </li>
@@ -111,64 +111,64 @@ function LandingPage() {
                                                 style={{background: 'transparent'}}
                                                 class="second-level-child second-level-child-10 notactive notactive url-type-external">Tech</Link>
                                             </li>
-                                            <li class="nav-items "> <a href="sports.html" style={{background: 'transparent'}}
+                                            <li class="nav-items "> <a  style={{background: 'transparent'}}
                                                 target="_self"
                                                 class="second-level-child second-level-child-11 notactive notactive url-type-internal">Sports
                                             </a></li>
-                                            <li class="nav-items "> <a href="data-intelligence-unit.html"
+                                            <li class="nav-items "> <a 
                                                 style={{background: 'transparent'}}
                                                 class="second-level-child second-level-child-12 notactive notactive url-type-external">DIU</a>
                                             </li>
-                                            <li class="nav-items "> <a href="newsmo.html" style={{background: 'transparent'}}
+                                            <li class="nav-items "> <a  style={{background: 'transparent'}}
                                                 target="_self"
                                                 class="second-level-child second-level-child-13 notactive notactive url-type-internal">NewsMo
                                             </a></li>
-                                            <li class="nav-items "> <a href="cities.html" style={{background: 'transparent'}}
+                                            <li class="nav-items "> <a style={{background: 'transparent'}}
                                                 target="_self"
                                                 class="second-level-child second-level-child-14 notactive notactive url-type-internal">Cities
                                             </a></li>
-                                            <li class="nav-items "> <a href="education-today.html"
+                                            <li class="nav-items "> <a 
                                                 style={{background: 'transparent'}}
                                                 class="second-level-child second-level-child-15 notactive notactive url-type-external">Education</a>
                                             </li>
-                                            <li class="nav-items "> <a href="trending-news.html"
+                                            <li class="nav-items "> <a 
                                                 style={{background: 'transparent'}}
                                                 class="second-level-child second-level-child-16 notactive notactive url-type-external">Trending</a>
                                             </li>
-                                            <li class="nav-items "> <a href="binge-watch.html"
+                                            <li class="nav-items "> <a 
                                                 style={{background: 'transparent'}} target="_self"
                                                 class="second-level-child second-level-child-17 notactive notactive url-type-internal">Binge
                                                 Watch </a></li>
-                                            <li class="nav-items "> <a href="auto.html" style={{background: 'transparent'}}
+                                            <li class="nav-items "> <a  style={{background: 'transparent'}}
                                                 target="_self"
                                                 class="second-level-child second-level-child-18 notactive notactive url-type-internal">Auto
                                             </a></li>
-                                            <li class="nav-items "> <a href="lifestyle.html"
+                                            <li class="nav-items "> <a 
                                                 style={{background: 'transparent'}} target="_self"
                                                 class="second-level-child second-level-child-19 notactive notactive url-type-internal">Lifestyle
                                             </a></li>
-                                            <li class="nav-items "> <a href="business.html" style={{background: 'transparent'}}
+                                            <li class="nav-items "> <a  style={{background: 'transparent'}}
                                                 target="_self"
                                                 class="second-level-child second-level-child-20 notactive notactive url-type-internal">Business
                                             </a></li>
-                                            <li class="nav-items "> <a href="television.html"
+                                            <li class="nav-items "> <a 
                                                 style={{background: 'transparent'}} target="_self"
                                                 class="second-level-child second-level-child-21 notactive notactive url-type-internal">Television
                                             </a></li>
-                                            <li class="nav-items "> <a href="world.html" style={{background: 'transparent'}}
+                                            <li class="nav-items "> <a style={{background: 'transparent'}}
                                                 target="_self"
                                                 class="second-level-child second-level-child-22 notactive notactive url-type-internal">World
                                             </a></li>
-                                            <li class="nav-items "> <a href="programmes.html"
+                                            <li class="nav-items "> <a 
                                                 style={{background: 'transparent'}} target="_self"
                                                 class="second-level-child second-level-child-23 notactive notactive url-type-internal">Programme
                                             </a></li>
-                                            <li class="nav-items "> <a href="airquality/index.html"
+                                            <li class="nav-items "> <a 
                                                 style={{background: 'transparent'}}
                                                 class="second-level-child second-level-child-24 notactive notactive url-type-external">AQI</a>
                                             </li>
                                             <li class="nav-items "> <a
-                                                href="india/story/dnpa-code-of-ethics-1733696-2020-10-21.html"
+                                              
                                                 style={{background: 'transparent'}}
                                                 class="second-level-child second-level-child-25 notactive notactive url-type-external">CODE
                                                 OF ETHICS</a></li>
@@ -183,7 +183,7 @@ function LandingPage() {
                                         <div class="menu-login mhide">
                                             <div class="social-nav mhide">
                                                 <dl class="social-nav mhide">
-                                                    <dt class="livetv-icon-parent"><a href="livetv.html">
+                                                    <dt class="livetv-icon-parent"><a >
                                                         text
                                                     </a>
                                                     </dt>
@@ -204,7 +204,7 @@ function LandingPage() {
                                                                     data-tag="homepage" data-activity="twitter_follow"
                                                                     data-status="1" title="Follow us" target="_blank"><i
                                                                         class="fa fa-twitter"></i></a></dt>
-                                                                <dt><a href="rss.html" title=""><i
+                                                                <dt><a  title=""><i
                                                                     class="fa fa-rss"></i></a></dt>
                                                             </dl>
                                                         </div>

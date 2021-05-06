@@ -45,7 +45,7 @@ export default function RecipeReviewCard() {
 
       <CardMedia
         className={classes.media}
-        image='images/video/202103/Devendra_Fadpti_0-170x966b9d.jpg'
+        // image='images/video/202103/Devendra_Fadpti_0-170x966b9d.jpg'
       />
       <CardContent>
           <date>Mon , 29 Mar,  2021</date>

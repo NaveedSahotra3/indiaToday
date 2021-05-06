@@ -92,7 +92,7 @@ body {
   top: 64px;
   width: 232px;
   height: 96px;
-  background: url(../images/sites/aajtak/dt-ls-txt.png) 84px bottom no-repeat;
+  /* background: url(../images/sites/aajtak/dt-ls-txt.png) 84px bottom no-repeat; */
 }
 
 .dm-cls-btn {
@@ -881,8 +881,8 @@ a {
 
 .breakingnew-home .new-detail .social-share ul li a.google,
 .breakingnew-home .new-detail .social-share ul li span.google {
-  background: url(../images/sites/all/themes/itg/images/google-icon.jpg) center
-    center no-repeat;
+  /* background: url(../images/sites/all/themes/itg/images/google-icon.jpg) center */
+    /* center no-repeat; */
 }
 
 .breakingnew-home .new-detail .social-share ul li .fa-share-alt {
@@ -5295,8 +5295,8 @@ span.smilies-title img {
 .platDetailVideoIcon {
   height: 15px;
   width: 12px;
-  background: url(../images/sites/all/themes/itg/images/play-icon-r.png)
-    no-repeat;
+  /* background: url(../images/sites/all/themes/itg/images/play-icon-r.png) */
+    /* no-repeat; */
   float: none;
   display: block;
   margin-top: 2px;
@@ -8333,7 +8333,7 @@ footer .footer-copyright-new {
 }
 
 .rdnotification ul.flex-direction-nav li.flex-nav-prev a {
-  background: url(../images/indiatoday/images/misc/lftarrow.png) no-repeat 0 0;
+  /* background: url(../images/indiatoday/images/misc/lftarrow.png) no-repeat 0 0; */
   width: 26px;
   height: 26px;
   text-indent: -9999999px;
@@ -8343,7 +8343,7 @@ footer .footer-copyright-new {
 }
 
 .rdnotification ul.flex-direction-nav li.flex-nav-next a {
-  background: url(../images/indiatoday/images/misc/rtlarrow.png) no-repeat 0 0;
+  /* background: url(../images/indiatoday/images/misc/rtlarrow.png) no-repeat 0 0; */
   width: 26px;
   height: 26px;
   text-indent: -9999999px;
@@ -8528,7 +8528,7 @@ section {
   top: 64px;
   width: 232px;
   height: 96px;
-  background: url(../images/sites/aajtak/dt-ls-txt.png) 84px bottom no-repeat;
+  /* background: url(../images/sites/aajtak/dt-ls-txt.png) 84px bottom no-repeat; */
 }
 
 .dm-cls-btn {

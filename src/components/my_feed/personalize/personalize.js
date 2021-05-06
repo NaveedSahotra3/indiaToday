@@ -1,9 +1,10 @@
 import React from "react"
 import "./personalize.css"
 import Card from "../card/card";
-import SideCard from "../card/sidecard"
+// import SideCard from "../card/sidecard"
 import Card2 from "../card/card2"
 import img4 from "../../assets/images/sites/all/themes/itg/images/itg_image370x208.jpg"
+import Header from "../header";
 
 export default function Personalize() {
     return (
@@ -11,6 +12,7 @@ export default function Personalize() {
 
 
         <main id="main" class="container">
+            <Header/>
             <section style={{ display: "flex" }} id="content" role="main">
                 <div className="content_main_div" style={{  }} id="content" role="main">
                     <div class="itg-layout-container itg-front">

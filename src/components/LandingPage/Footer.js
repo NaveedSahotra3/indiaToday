@@ -1,5 +1,6 @@
 
 // Assets
+import React from 'react'
 import logo from "../assets/images/sites/all/themes/itg/logo2048.png?v=1.5"
 // Components
 

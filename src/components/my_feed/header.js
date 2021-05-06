@@ -1,9 +1,10 @@
 import React from "react"
 import "./header.css";
+import {Link} from 'react-router-dom'
 export default function Header(){
     return(
-        <div class="foryou_main_menu">
-            <ul>
+        <div class="container foryou_main_menu">
+            <ul className="myul">
                 <li class="for-you-title-main active">
                     <a href="/foryou" title="Newsfeeed">My News Feed</a>
                     </li>
@@ -15,13 +16,13 @@ export default function Header(){
                                 </svg> 
                                 Personalise</a>
                                 </li>
-                                <li class="sectionitem " attrid="1206578">India</li>
-                                <li class="sectionitem " attrid="1206533">Movies</li>
-                                <li class="sectionitem " attrid="1206577">World</li>
-                                <li class="sectionitem " attrid="1206688">Technology</li>
-                                <li class="sectionitem " attrid="1206550">Sports</li>
-                                <li class="sectionitem " attrid="1206689">Auto</li>
-                                <li class="sectionitem " attrid="1206553">Programmes</li>
+                                <li class="sectionitem" attrid="1206578"><Link to="/personalize">India</Link></li>
+                                <li class="sectionitem" attrid="1206533"><Link to="/personalize">Movies</Link></li>
+                                <li class="sectionitem" attrid="1206577"><Link to="/personalize">World</Link></li>
+                                <li class="sectionitem" attrid="1206688"><Link to="/personalize">Technology</Link></li>
+                                <li class="sectionitem" attrid="1206550"><Link to="/personalize">Sports</Link></li>
+                                <li class="sectionitem" attrid="1206689"><Link to="/personalize">Auto</Link></li>
+                                <li class="sectionitem" attrid="1206553"><Link to="/personalize">Programmes</Link></li>
                                 </ul>
                                 </div>
     );

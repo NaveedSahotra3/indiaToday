@@ -17,8 +17,8 @@ function Home() {
     <div className="html front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-2 node-type-page">
      
       <Header />
-      <Route exact path="/my_feed/personalize" component={Personalize} />
         <Route exact path="/" component={LandingPage} />
+      <Route exact path="/personalize" component={Personalize} />
         {/* <Route path="/" component={Stories} /> */}
         <Route exact path="/tech" component={Tech} />
         <Route exact path="/election" component={Election} />

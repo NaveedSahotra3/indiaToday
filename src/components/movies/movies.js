@@ -81,7 +81,7 @@ export default function Movies() {
                 </div>
             </div>
             {/* <div>
-            <Movie_3rd_section />
+           <Movie_3rd_section />
             </div> */}
             <div style={{ padding: "30px", width: "100%", display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
 
