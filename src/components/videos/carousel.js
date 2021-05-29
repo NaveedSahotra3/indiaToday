@@ -14,34 +14,52 @@ export default class Example extends Component {
   slides = [
     {
       key: uuidv4(),
-      content: <img src="https://picsum.photos/800/801/?random" alt="1" />
+     
+      content: [<div>
+        <img src="https://picsum.photos/800/801/?random" alt="1" /> ,
+         <p style={{position:'absolute' , color:'red' , top:200, left:120}}>Click to read or watch the news</p>
+      </div>]
     },
     {
       key: uuidv4(),
+      
+
       content: <img src="https://picsum.photos/800/802/?random" alt="2" />
     },
     {
       key: uuidv4(),
+      
+
       content: <img src="https://picsum.photos/600/803/?random" alt="3" />
     },
     {
       key: uuidv4(),
+      
+
       content: <img src="https://picsum.photos/800/500/?random" alt="4" />
     },
     {
       key: uuidv4(),
+      
+
       content: <img src="https://picsum.photos/800/804/?random" alt="5" />
     },
     {
       key: uuidv4(),
+      
+
       content: <img src="https://picsum.photos/500/800/?random" alt="6" />
     },
     {
       key: uuidv4(),
+      
+
       content: <img src="https://picsum.photos/800/600/?random" alt="7" />
     },
     {
       key: uuidv4(),
+      
+
       content: <img src="https://picsum.photos/805/800/?random" alt="8" />
     }
   ].map((slide, index) => {
@@ -57,8 +75,13 @@ export default class Example extends Component {
   render() {
     return (
       <div style={{ width: "80%", height: "500px", margin: "0 auto" }}>
+        {/* <p>
+        {this.slides.title}
+        </p> */}
         <Carousel
           slides={this.slides}
+          title={this.slides.title}
+
           goToSlide={this.state.goToSlide}
           offsetRadius={this.state.offsetRadius}
           showNavigation={this.state.showNavigation}

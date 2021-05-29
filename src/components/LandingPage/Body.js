@@ -27,15 +27,13 @@ import { useDispatch, useSelector } from 'react-redux'
 
 function Body() {
 
-const [topStoryTitle, settopStoryTitle] = useState([{
-
-}])
+const [topStoryTitle, settopStoryTitle] = useState(null)
   const dispatch = useDispatch()
 
-  // useEffect(() => {
+  useEffect(() => {
     dispatch(TOP_Stories())
   
-  // }, [])
+  }, [])
 
   
   
@@ -43,10 +41,10 @@ const [topStoryTitle, settopStoryTitle] = useState([{
     console.log(state)
     useEffect(() => {
       
-      settopStoryTitle([{state}])
+      settopStoryTitle(state)
     
       console.log(topStoryTitle)
-    }, [topStoryTitle])
+    }, [state])
 
     
   
@@ -190,7 +188,7 @@ const [topStoryTitle, settopStoryTitle] = useState([{
                                  {
                                  topStoryTitle &&  topStoryTitle.map((item , key)=>{
                                      return    <li
-                                     key={0}
+                                     key={key}
                                      data-tb-region-item
                                      title="Bengal election: Parties fight it out as campaign for first round of polling ends"
                                      class="story top-story-1783722 "

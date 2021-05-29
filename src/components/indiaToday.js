@@ -22,7 +22,7 @@ function Home() {
         {/* <Route path="/" component={Stories} /> */}
         <Route exact path="/tech" component={Tech} />
         <Route exact path="/election" component={Election} />
-      <Route exact path="/my_feed" component={My_Feeds} />
+        <Route exact path="/my_feed" component={My_Feeds} />
         <Route exact path="/video" component={Videos} />
         <Route exact path="/movies" component={Movies} />
         <Route exact path="/front" component={Front} />

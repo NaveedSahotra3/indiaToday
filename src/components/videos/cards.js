@@ -1,12 +1,14 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardMedia from '@material-ui/core/CardMedia';
-import CardContent from '@material-ui/core/CardContent';
+import React ,{useEffect , useState} from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import Card from "@material-ui/core/Card";
+import CardMedia from "@material-ui/core/CardMedia";
+import CardContent from "@material-ui/core/CardContent";
 
-import Typography from '@material-ui/core/Typography';
-import { red } from '@material-ui/core/colors';
+import Typography from "@material-ui/core/Typography";
+import { red } from "@material-ui/core/colors";
 
+import {VideoArticles} from '../../Redux/Actions/videoArticles'
+import { useDispatch, useSelector } from 'react-redux'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -14,18 +16,17 @@ const useStyles = makeStyles((theme) => ({
   },
   media: {
     height: 0,
-    paddingTop: '56.25%', // 16:9
-
+    paddingTop: "56.25%", // 16:9
   },
   expand: {
-    transform: 'rotate(0deg)',
-    marginLeft: 'auto',
-    transition: theme.transitions.create('transform', {
+    transform: "rotate(0deg)",
+    marginLeft: "auto",
+    transition: theme.transitions.create("transform", {
       duration: theme.transitions.duration.shortest,
     }),
   },
   expandOpen: {
-    transform: 'rotate(180deg)',
+    transform: "rotate(180deg)",
   },
   avatar: {
     backgroundColor: red[500],
@@ -33,6 +34,10 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function RecipeReviewCard() {
+
+  const dispatch = useDispatch()
+const [state, setstate] = useState(null)
+  
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -40,20 +45,55 @@ export default function RecipeReviewCard() {
     setExpanded(!expanded);
   };
 
+  useEffect(() => {
+    dispatch(VideoArticles())
+  
+  }, [])
+
+
+  
+  const video = useSelector(state => state.VideoArticle.VideoArticles)
+  console.log(video)
+  useEffect(() => {
+    
+    setstate(video)
+  
+    console.log(state)
+  }, [video])
+
+
+
+  // const state = useSelector(state => state.state)
+  
+
   return (
-    <Card className={classes.root}>
+   <div>
+     {
+       state && state.map((item)=>{
+         return  <Card className={classes.root}>
+         <CardMedia
+           className={classes.media}
+         />
+         <CardMedia
+           className={classes.media}
+          //  image="https://www.w3schools.com/images/picture.jpg"
+          image = {item.image}
+           title="Paella dish"
+         />
+         <CardContent>
+           <date>Mon , 29 Mar, 2021</date>
+   
+           <Typography variant="body2" color="textSecondary" component="p">
+             {/* This impressive paella is a perfect party dish and a fun meal to cook. */}
 
-      <CardMedia
-        className={classes.media}
-        // image='images/video/202103/Devendra_Fadpti_0-170x966b9d.jpg'
-      />
-      <CardContent>
-          <date>Mon , 29 Mar,  2021</date>
-        <Typography variant="body2" color="textSecondary" component="p">
-          This impressive paella is a perfect party dish and a fun meal to cook.
-        </Typography>
-      </CardContent>
-
-    </Card>
+             {
+               item.description
+             }
+           </Typography>
+         </CardContent>
+       </Card>
+       })
+     }
+   </div>
   );
 }
